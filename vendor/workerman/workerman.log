@@ -376,3 +376,16 @@ Stack trace:
 2019-05-24 08:18:16 pid:11844 Workerman[start.php] status 
 2019-05-24 08:50:05 pid:2549 Workerman[start.php] stopping ...
 2019-05-24 08:54:22 pid:2589 Workerman[start.php] start in DAEMON mode
+2019-05-24 10:58:01 pid:4582 Workerman[start.php] stop 
+2019-05-24 10:58:01 pid:4582 Workerman[start.php] is stopping ...
+2019-05-24 10:58:01 pid:2591 Workerman[start.php] stopping ...
+2019-05-24 10:58:01 pid:2591 Workerman[start.php] has been stopped
+2019-05-24 10:58:01 pid:4582 Workerman[start.php] stop success
+2019-05-24 10:58:10 pid:4586 Workerman[start.php] start in DEBUG mode
+2019-05-24 10:58:30 pid:4586 Workerman[start.php] stopping ...
+2019-05-24 10:58:30 pid:4586 Workerman[start.php] has been stopped
+2019-05-24 10:58:35 pid:4596 Workerman[start.php] start in DAEMON mode
+2019-05-27 05:37:30 pid:19812 Workerman[start.php] reload 
+2019-05-27 05:37:30 pid:4598 Workerman[start.php] reloading
+2019-05-27 05:38:44 pid:19820 Workerman[start.php] reload 
+2019-05-27 05:38:44 pid:4598 Workerman[start.php] reloading

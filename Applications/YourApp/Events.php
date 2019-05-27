@@ -48,7 +48,11 @@ class Events
             'type'      => 'login',
             'client_id' => $client_id
         )));
-
+        $allCount = Gateway::getAllClientIdCount();
+        Gateway::sendToAll(json_encode(array(
+            'type'      => 'userAllCount',
+            'content' => $allCount
+        )));
 //        // 向当前client_id发送数据
 //        Gateway::sendToClient($client_id, "Hello $client_id\r\n");
 //        // 向所有人发送
@@ -131,9 +135,14 @@ class Events
     */
    public static function onClose($client_id)
    {
+//       Gateway::sendToAll(json_encode(array(
+//           'type'      => 'logout',
+//           'client_id' => $client_id
+//       )));
+       $allCount = Gateway::getAllClientIdCount();
        Gateway::sendToAll(json_encode(array(
-           'type'      => 'logout',
-           'client_id' => $client_id
+           'type'      => 'userAllCount',
+           'content' => $allCount
        )));
        // 向所有人发送 
 //       GateWay::sendToAll("$client_id logout\r\n");
