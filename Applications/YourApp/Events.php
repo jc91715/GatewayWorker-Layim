@@ -49,9 +49,13 @@ class Events
             'client_id' => $client_id
         )));
         $allCount = Gateway::getAllClientIdCount();
+        $maleCount=Gateway::getClientIdCountByGroup('marry-user-1');
+        $femaleCount=Gateway::getClientIdCountByGroup('marry-user-2');
         Gateway::sendToAll(json_encode(array(
             'type'      => 'userAllCount',
-            'content' => $allCount
+            'content' => $allCount,
+            'maleCount'=>$maleCount,
+            'femaleCount'=>$femaleCount,
         )));
 //        // 向当前client_id发送数据
 //        Gateway::sendToClient($client_id, "Hello $client_id\r\n");

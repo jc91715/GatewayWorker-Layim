@@ -389,3 +389,21 @@ Stack trace:
 2019-05-27 05:37:30 pid:4598 Workerman[start.php] reloading
 2019-05-27 05:38:44 pid:19820 Workerman[start.php] reload 
 2019-05-27 05:38:44 pid:4598 Workerman[start.php] reloading
+2019-10-03 00:06:22 pid:3467 Workerman[start.php] start in DEBUG mode
+2019-10-03 00:07:37 pid:3470 Workerman[start.php] start in DEBUG mode
+2019-10-03 00:07:44 pid:3471 Workerman[start.php] start in DEBUG mode
+2019-10-03 00:08:30 pid:3475 Workerman[start.php] start in DEBUG mode
+2019-10-03 00:08:57 pid:3479 Workerman[start.php] start in DEBUG mode
+2019-10-08 09:03:37 pid:4657 Workerman[start.php] start in DEBUG mode
+2019-10-10 02:27:33 pid:8390 Workerman[start.php] start in DEBUG mode
+2019-10-10 02:27:33 pid:8390 Workerman[start.php] already running
+2019-10-10 02:35:33 pid:8406 Workerman[start.php] stop 
+2019-10-10 02:35:33 pid:8406 Workerman[start.php] is stopping ...
+2019-10-10 02:35:33 pid:4657 Workerman[start.php] stopping ...
+2019-10-10 02:35:33 pid:4657 Workerman[start.php] has been stopped
+2019-10-10 02:35:33 pid:8406 Workerman[start.php] stop success
+2019-10-10 02:35:36 pid:8407 Workerman[start.php] start in DEBUG mode
+2019-10-10 02:38:45 pid:8536 Workerman[start.php] start in DEBUG mode
+2019-10-10 02:38:45 pid:8536 Workerman[start.php] already running
+2019-10-10 02:59:59 pid:8633 Workerman[start.php] start in DEBUG mode
+2019-10-10 02:59:59 pid:8633 Workerman[start.php] already running
